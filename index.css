@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Sterilict;
+  src: url(Sterilict-L3aen.ttf);
+}
+
+@font-face {
+  font-family: Okuda;
+  src: url(Okuda.otf);
+}
+
+form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: black;
+  color: #ffcc66;
+}
+
+form button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #9977AA;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #664466;
+}
+
+form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  font-family: Sterilict, Helvetica, Tahoma, sans-serif;
+  color:#ff9933;
+  background-color: black;
+}
+
+header {
+  margin: auto;
+}
+
+main{
+  margin: 1em;
+}
+
+a{
+  color: #ffcc66;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffff99
+}
+
+#search{
+  width: 70%;
+  height: 20%;
+  margin: auto;
+  padding: 1em 1em 3em 1em;
+}
+
+#results{
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  padding: 1em 1em 3em 1em;
+
+}
+
+#container{
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  color: #ffff99;
+  font-family: Okuda, Helvetica, Tahoma, sans-serif;
+  font-size: 40px;
+}
+
+footer {
+  margin: auto;
+}

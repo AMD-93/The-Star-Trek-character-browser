@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Sterilict;
+  src: url(Sterilict-L3aen.ttf);
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  min-height: 100%;
+  font-family: Sterilict, Verdana, Tahoma;
+  color:#ff9933;
+  background-color: black;
+}
+
+a{
+  color: #ffcc66;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffff99
+}
+
+header {
+  margin: auto;
+  padding: 2em;
+  align-content: center;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.8)
+
+}
+
+main{
+  margin: auto;
+  padding: 4em 2em 2em 2em;
+  text-align: center;
+  width: 70%;
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+#start{
+  padding-top: 2em;
+  font-size: 50px;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+  padding: 2em;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.8)
+
+}
+
+#video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
