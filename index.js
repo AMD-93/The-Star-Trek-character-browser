@@ -45,3 +45,5 @@ function search(event){
         container.appendChild(element);
     }
   })}
+
+  console.log("hola")
