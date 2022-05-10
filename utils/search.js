@@ -3,7 +3,6 @@ let searchQuery = document.getElementById("search-query");
 let container = document.getElementById("container");
 let button = document.getElementById("button");
 
-
 //disable button until input field has text
 button.disabled = true;
 searchQuery.addEventListener("input", disableButton);
