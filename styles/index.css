@@ -17,12 +17,12 @@ body {
   background-color: black;
 }
 
-a{
+a {
   color: #ffcc66;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #ffff99
 }
 
@@ -32,10 +32,13 @@ header {
   align-content: center;
   width: 70%;
   background-color: rgba(0, 0, 0, 0.8)
-
 }
 
-main{
+h1 {
+  text-align: center;
+}
+
+main {
   margin: auto;
   padding: 4em 2em 2em 2em;
   text-align: center;
@@ -44,7 +47,7 @@ main{
   background-color: rgba(0, 0, 0, 0.8)
 }
 
-#start{
+#start {
   padding-top: 2em;
   font-size: 50px;
 }

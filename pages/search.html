@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/search.css">
+
+    <title>The Star Trek character browser</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>The Star Trek character browser</h1>
+    </header>
+    <button onclick="scrollUp()" id="scroll-button" title="Go to top">&#8593;</button>
+
+    <main>
+      <section id="search">
+        <h2>Search here</h2>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <form id="form">
+            <input type="text" placeholder="Search..." name="search" id="search-query">
+            <button id="button" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+      </section>
+
+      <section id="results">
+
+        <h2>Search Results</h1>
+          <div id="container"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p><< Powered by <a href="http://stapi.co/">STAPI</a>, a Star Trek API >></p>
+    </footer>
+
+    <script type="text/javascript" src="../utils/search.js"></script>
+
+
+  </body>
+</html>
